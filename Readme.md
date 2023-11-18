@@ -32,7 +32,7 @@ Features
 Endpoints
 
 
-###Upload File
+### Upload File
 Endpoint: POST /files/upload
 Description: Uploads a file onto the platform.
 Input: File binary data, file name, metadata (if any).
@@ -53,14 +53,14 @@ Description: Updates an existing file or its metadata.
 Input: New file binary data or new metadata.
 Output: Updated metadata or a success message.
 
-###Delete File
+### Delete File
 Endpoint: DELETE /files/{fileId}
 Description: Deletes a specific file based on a unique identifier.
 Input: Unique file identifier.
 Output: A success or failure message.
 
 
-###List Files
+### List Files
 Endpoint: GET /files
 Description: Lists all available files and their metadata.
 Input: None.
