@@ -32,39 +32,39 @@ Features
 Endpoints
 
 
-Upload File
-### Endpoint: POST /files/upload
-# Description: Uploads a file onto the platform.
-# Input: File binary data, file name, metadata (if any).
-# Output: A unique file identifier.
-# Metadata Saved: File name, createdAt timestamp, size, file type.
+###Upload File
+Endpoint: POST /files/upload
+Description: Uploads a file onto the platform.
+Input: File binary data, file name, metadata (if any).
+Output: A unique file identifier.
+Metadata Saved: File name, createdAt timestamp, size, file type.
 
 
 ### Read File
-# Endpoint: GET /files/{fileId}
-# Description: Retrieves a specific file based on a unique identifier.
-# Input: Unique file identifier.
-# Output: File binary data.
+Endpoint: GET /files/{fileId}
+Description: Retrieves a specific file based on a unique identifier.
+Input: Unique file identifier.
+Output: File binary data.
 
 
 ### Update File
-#Endpoint: PUT /files/{fileId}
-#Description: Updates an existing file or its metadata.
-#Input: New file binary data or new metadata.
-#Output: Updated metadata or a success message.
+Endpoint: PUT /files/{fileId}
+Description: Updates an existing file or its metadata.
+Input: New file binary data or new metadata.
+Output: Updated metadata or a success message.
 
 ###Delete File
-#Endpoint: DELETE /files/{fileId}
-#Description: Deletes a specific file based on a unique identifier.
-#Input: Unique file identifier.
-#Output: A success or failure message.
+Endpoint: DELETE /files/{fileId}
+Description: Deletes a specific file based on a unique identifier.
+Input: Unique file identifier.
+Output: A success or failure message.
 
 
 ###List Files
-#Endpoint: GET /files
-#Description: Lists all available files and their metadata.
-#Input: None.
-#Output: A list of file metadata objects, including file IDs, names, createdAt timestamps, etc.
+Endpoint: GET /files
+Description: Lists all available files and their metadata.
+Input: None.
+Output: A list of file metadata objects, including file IDs, names, createdAt timestamps, etc.
 
 
 
